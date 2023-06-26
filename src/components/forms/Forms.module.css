@@ -1,0 +1,30 @@
+.form {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	display: block;
+	background: #fff;
+	border: none;
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 7px;
+	padding: 8px;
+}
+
+.submitButton {
+	background: none;
+	border: none;
+	appearance: none;
+    margin-top: 15px;
+    padding: 6px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 1.16;
+	color: #fff;
+	background:#0079BF;
+	padding: 6px 18px;
+	cursor: pointer;
+}

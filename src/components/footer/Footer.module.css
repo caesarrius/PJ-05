@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0067A3;
+    align-items: center;
+    padding: 0 20px;
+    height: 55px;
+}
+
+.userName {
+    color: #FFFFFF;
+
+}
+
+.counts {
+    width: 250px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+@media (max-width:339px) {
+	.footer{
+		display: none;
+	}
+}

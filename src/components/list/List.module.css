@@ -1,0 +1,61 @@
+.list {
+	min-width: 282px;
+	max-width: 24%;
+	height: 100%;
+	background:#EBECF0;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+.listTitle {
+	margin-bottom: 15px;
+}
+
+.task {
+	background: #fff;
+	color: #000;
+	margin: 15px 0;
+	padding: 8px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 1.16;
+	&:hover {
+		color: #457997;
+	}
+}
+
+.taskLink {
+	text-decoration: none;
+}
+
+.addButton , .addButtonDisabled {
+	background: none;
+	border: none;
+	appearance: none;
+    margin-top: 15px;
+    padding: 6px;
+    color: #909bae;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 1.16;
+    svg {
+		margin-right: 4px;
+	}
+}
+
+.addButton:hover{
+	cursor: pointer;
+	background-color: #457997;
+	color:#fff
+}
+
+
+
+.addButtonDisabled {
+	cursor: default;
+}
+
+.trackVertical {
+	border-radius: 5px !important;
+}
